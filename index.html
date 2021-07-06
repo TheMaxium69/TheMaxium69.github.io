@@ -1,1 +1,55 @@
-<p>Test</p>
+<!doctype html>
+<html>
+  <head>
+    <title>AjaxApi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>AjaxApi</h1>
+    <button id="btn" class="btn btn-success" onclick="indexGateau()">DEBUG</button>
+    <p id="p1"></p>
+    
+    <!-- <button id="btn2" class="btn btn-success" onclick="showGateau('id=1')">Requette [SHOW]</button>
+    <p id="p2"></p>
+
+    <button id="btn3" class="btn btn-success" onclick="suppGateau('id=8')">Requette [SUPP]</button>
+    <p id="p3"></p>
+
+    <button id="btn4" class="btn btn-success" onclick="addGateau('')">Requette [ADD]</button>
+    <p id="p4"></p> -->
+
+
+    <button class="btn btn-success start" id="boutonStart">Start</button>
+
+    <div class="row gateaux"></div>
+
+    <hr>
+
+    <div class="row recettes">
+      
+    </div>
+
+    <hr>
+    
+      <input class="formname" type="text" name="name" placeholder="Name">
+      <input type="text" name="email" placeholder="Email">
+      <textarea type="text" name="msg" placeholder="Message" ></textarea>
+      <input type="submit" class="btn btn-danger formstart" id="formStart">
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
